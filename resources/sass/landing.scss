@@ -36,6 +36,13 @@ $mq-mobile-small: 440px;
   @media(max-width: $mq-tablets-small){
     @content;
   }
+  .background-body{
+    background-image: url('/img/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background: url('/img/hero.jpg') no-repeat top center / auto 1200px;
+  }
 }
 @mixin mobile{
   @media(max-width: $mq-mobile){
@@ -59,13 +66,14 @@ html, body{
 body{
   background: $white;
   color: $black;
+}
+.background-body{
   background-image: url('/img/hero.jpg');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  background: url('/img/hero.jpg') no-repeat top center / auto 700px;
+  background: url('/img/hero.jpg') no-repeat top center / auto 900px;
 }
-
 *{
   max-width: 100%;
   font-variant-ligatures: none;

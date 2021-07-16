@@ -13,128 +13,130 @@
 
 <body>
   <main id="main" role="main">
-    <header class="topbar">
-      <div class="wrap topbar--cont">
-        <h2>
-          <span>Logo</span>
-          <i class="svg">
-            @svg('logo-white')
-          </i>
-        </h2>
-        <nav class="topbar-menu">
-          <ul class="topbar-menu--ul">
-            <li class="topbar-menu--li">
-              <div class="icontext">
-                <i class="svg">
-                  @svg('icon-whatsapp')
-                </i>
-                <span>
-                  123 456 78 99
-                </span>
-              </div>
-            </li>
-            <li class="topbar-menu--li">
-              <div class="icontext">
-                <i class="svg">
-                  @svg('icon-telefono')
-                </i>
-                <span>
-                  975 642 12 46
-                </span>
-              </div>
-            </li>
-            <li class="topbar-menu--li">
-              <div class="icontext">
-                <i class="svg">
-                  @svg('icon-mail')
-                </i>
-                <span>
-                  alguien@landing.com
-                </span>
-              </div>
-            </li>
-          </ul>
-        </nav>
+    <div class="background-body">
+      <header class="topbar">
+        <div class="wrap topbar--cont">
+          <h2>
+            <span>Logo</span>
+            <i class="svg">
+              @svg('logo-white')
+            </i>
+          </h2>
+          <nav class="topbar-menu">
+            <ul class="topbar-menu--ul">
+              <li class="topbar-menu--li">
+                <div class="icontext">
+                  <i class="svg">
+                    @svg('icon-whatsapp')
+                  </i>
+                  <span>
+                    123 456 78 99
+                  </span>
+                </div>
+              </li>
+              <li class="topbar-menu--li">
+                <div class="icontext">
+                  <i class="svg">
+                    @svg('icon-telefono')
+                  </i>
+                  <span>
+                    975 642 12 46
+                  </span>
+                </div>
+              </li>
+              <li class="topbar-menu--li">
+                <div class="icontext">
+                  <i class="svg">
+                    @svg('icon-mail')
+                  </i>
+                  <span>
+                    alguien@landing.com
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="wrap intro">
+        <article class="h2col">
+          <div>
+            <h4 class="title title-pre nobottom">elit inceptos cras neque</h4>
+            <h2 class="title title-main notop">faucibus donec nulla nam scelerisque ac ipsum ac penatibus</h2>
+            <p>facilisis ante euismod phasellus odio aliquet per eget phasellus sit et dolor taciti, per aliquet penatibus primis facilisis ultrices congue torquent</p>
+          </div>
+          <div class="contact-card--cont">
+            <div class="contact-card" data-js-info>
+            </div>
+          </div>
+        </article>
       </div>
-    </header>
-    <div class="wrap intro">
-      <article class="h2col">
-        <div>
-          <h4 class="title title-pre nobottom">elit inceptos cras neque</h4>
-          <h2 class="title title-main notop">faucibus donec nulla nam scelerisque ac ipsum ac penatibus</h2>
-          <p>facilisis ante euismod phasellus odio aliquet per eget phasellus sit et dolor taciti, per aliquet penatibus primis facilisis ultrices congue torquent</p>
-        </div>
-        <div class="contact-card--cont">
-          <div class="contact-card" data-js-info>
+      <div class="wrap mtopfull">
+        <h3 class="ctr title-white">urna lorem in nibh ac urna nec nisi vulputate</h3>
+      </div>
+      <div class="wrap mtopq">
+        <div class="c3cols">
+          <div class="aptcard">
+            <h3 class="aptcard--title">mauris eleifend</h3>
+            <div class="aptcard--img">
+              <img src="/img/apt-01.jpg" />
+            </div>
+            <div class="aptcard--disp">
+              <img src="/img/av-01.svg" />
+            </div>
+            <div class="aptcard--desc">
+              <ul class="nicelist">
+                <li>conubia nibh aliquet montes</li>
+                <li>risus ante arcu</li>
+                <li>elit elementum</li>
+                <li>nam neque sit</li>
+                <li>penatibus litora dignissim</li>
+              </ul>
+            </div>
+            <div class="aptcard--cta">
+              <a class="button" data-fakelink href="/">elit inceptos cras neque</a>
+            </div>
           </div>
-        </div>
-      </article>
-    </div>
-    <div class="wrap mtopfull">
-      <h3 class="ctr title-white">urna lorem in nibh ac urna nec nisi vulputate</h3>
-    </div>
-    <div class="wrap mtopq">
-      <div class="c3cols">
-        <div class="aptcard">
-          <h3 class="aptcard--title">mauris eleifend</h3>
-          <div class="aptcard--img">
-            <img src="/img/apt-01.jpg" />
+          <div class="aptcard">
+            <h3 class="aptcard--title">dapibus</h3>
+            <div class="aptcard--img">
+              <img src="/img/apt-02.jpg" />
+            </div>
+            <div class="aptcard--disp">
+              <img src="/img/av-02.svg" />
+            </div>
+            <div class="aptcard--desc">
+              <ul class="nicelist">
+                <li>bibendum velit vel malesuada</li>
+                <li>phasellus magna</li>
+                <li>elit elementum</li>
+                <li>nam neque sit</li>
+                <li>nam neque sit enim sit</li>
+              </ul>
+            </div>
+            <div class="aptcard--cta">
+              <a class="button" data-fakelink href="/">elit inceptos cras neque</a>
+            </div>
           </div>
-          <div class="aptcard--disp">
-            <img src="/img/av-01.svg" />
-          </div>
-          <div class="aptcard--desc">
-            <ul class="nicelist">
-              <li>conubia nibh aliquet montes</li>
-              <li>risus ante arcu</li>
-              <li>elit elementum</li>
-              <li>nam neque sit</li>
-              <li>penatibus litora dignissim</li>
-            </ul>
-          </div>
-          <div class="aptcard--cta">
-            <a class="button" data-fakelink href="/">elit inceptos cras neque</a>
-          </div>
-        </div>
-        <div class="aptcard">
-          <h3 class="aptcard--title">dapibus</h3>
-          <div class="aptcard--img">
-            <img src="/img/apt-02.jpg" />
-          </div>
-          <div class="aptcard--disp">
-            <img src="/img/av-02.svg" />
-          </div>
-          <div class="aptcard--desc">
-            <ul class="nicelist">
-              <li>bibendum velit vel malesuada</li>
-              <li>phasellus magna</li>
-              <li>elit elementum</li>
-              <li>nam neque sit</li>
-              <li>nam neque sit enim sit</li>
-            </ul>
-          </div>
-          <div class="aptcard--cta">
-            <a class="button" data-fakelink href="/">elit inceptos cras neque</a>
-          </div>
-        </div>
-        <div class="aptcard">
-          <h3 class="aptcard--title">conubia</h3>
-          <div class="aptcard--img">
-            <img src="/img/apt-03.jpg" />
-          </div>
-          <div class="aptcard--disp">
-            <img src="/img/av-03.svg" />
-          </div>
-          <div class="aptcard--desc">
-            <ul class="nicelist">
-              <li>imperdiet conubia eros est</li>
-              <li>varius phasellus</li>
-              <li>torquent risus</li>
-              <li>fames vestibulum vulputate</li>
-            </ul>
-          </div>
-          <div class="aptcard--cta">
-            <a class="button" data-fakelink href="/">elit inceptos cras neque</a>
+          <div class="aptcard">
+            <h3 class="aptcard--title">conubia</h3>
+            <div class="aptcard--img">
+              <img src="/img/apt-03.jpg" />
+            </div>
+            <div class="aptcard--disp">
+              <img src="/img/av-03.svg" />
+            </div>
+            <div class="aptcard--desc">
+              <ul class="nicelist">
+                <li>imperdiet conubia eros est</li>
+                <li>varius phasellus</li>
+                <li>torquent risus</li>
+                <li>fames vestibulum vulputate</li>
+              </ul>
+            </div>
+            <div class="aptcard--cta">
+              <a class="button" data-fakelink href="/">elit inceptos cras neque</a>
+            </div>
           </div>
         </div>
       </div>
